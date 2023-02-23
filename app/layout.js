@@ -1,13 +1,14 @@
-import Navigation from './components/navigation'
+import Navigation from "./components/Navigation";
+import "../styles/globals.css";
 
 export default function RootLayout({ children }) {
   return (
     <html>
       <head />
       <body>
-        <Navigation/>
+        <Navigation />
         {children}
-        </body>
+      </body>
     </html>
-  )
+  );
 }
