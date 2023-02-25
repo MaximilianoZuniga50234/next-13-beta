@@ -1,11 +1,12 @@
 import Navigation from "./components/Navigation";
 import "../styles/globals.css";
+import Font from "./font";
 
 export default function RootLayout({ children }) {
   return (
     <html>
       <head />
-      <body>
+      <body className={Font.className}>
         <Navigation />
         {children}
       </body>
